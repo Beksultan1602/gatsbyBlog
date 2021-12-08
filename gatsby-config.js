@@ -23,11 +23,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    `gatsby-transformer-sharp`,    
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extension:[`.md`, `.mdx`],
+        extensions: [`.md`, `.mdx`],
         gatsbyRemarkPlugins: [{
           resolve: `gatsby-remark-images`,
           option: {
